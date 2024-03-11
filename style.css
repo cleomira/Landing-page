@@ -26,7 +26,6 @@ main {
 
 .wrapper {
   width: 100%;
-  /* max-width: 80%; */
   margin: 20px auto;
   background-color: var(--white);
   padding: 0 10px;
@@ -70,6 +69,9 @@ nav ul li a {
   text-align: left;
 }
 
+nav ul li a:hover{
+  color: var(--softOrange);
+}
 #close {
   position: absolute;
   top: 20px;
@@ -113,6 +115,10 @@ nav ul li a {
   border: none;
 }
 
+.buttonDiv:hover{
+  background-color: var(--veryDarkBlue);
+}
+
 .parent {
   padding: 15px;
   border: 1px solid black;
@@ -129,6 +135,10 @@ nav ul li a {
   font-size: 14px;
   margin-bottom: 10px;
   margin-top: 20px;
+}
+
+.category h3:hover{
+color: var(--softOrange);
 }
 
 .category p {
@@ -164,11 +174,14 @@ nav ul li a {
   flex-direction: column;
   width: 100%;
   gap: 10px;
-  /* justify-content: space-between; */
 }
 
 .retroWriteUp h3 {
   color: var(--grayishBlue);
+}
+
+.retroWriteUp h4:hover{
+  color: var(--softRed);
 }
 
 .retroWriteUp p {
